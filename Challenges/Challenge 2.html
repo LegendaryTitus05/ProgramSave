@@ -1,0 +1,36 @@
+<html>
+	<script>
+		function breakLine(){
+			document.write("<br/>");
+		}
+	
+		document.write("#1 Find out the missing letter. Only a few people can figure it out in less than ten seconds. Are you one of them?");
+		breakLine();
+		document.write("MTW_FSS");
+		breakLine();
+		breakLine();
+	
+		document.write("#2 Figure this one out as well.");
+		breakLine();
+		document.write("JFMAM_JA_OND");
+		breakLine();
+		breakLine();
+	
+		document.write("#3 The last one, you'll win once it's complete!");
+		breakLine();
+	
+		var a = 1;
+		var b = 1;
+	
+		document.write(a + ", " + b + ", ");
+		document.write("2" + ", ");
+	
+		for (i = 0; i <5; i++){
+			a = a + b;
+			document.write(a + b + ", ");
+	
+			b = a + b;
+			document.write("__, ");
+		}
+	</script>
+</html>
